@@ -80,10 +80,9 @@ VPN / IPsec
 ## Hierarchical Network Topology
 📂 Project Structure
 University-Enterprise-Network-Topology-VPN-Simulation/
-│
-├── README.md
-├── University_Enterprise_Network_VPN.pkt
-├── Computer-Networks-Banana-Problem.docx
+- README.md
+- University_Enterprise_Network_VPN.pkt
+- Computer-Networks-Banana-Problem.docx
 
 ## ▶️ How to Run
 1. Install Cisco Packet Tracer
@@ -143,7 +142,7 @@ Also verify that the VPN peer is reachable and that the required interfaces are 
 - Demonstrate VPN-based connectivity.
 - Simulate and verify the network using Cisco Packet Tracer.
 
-##📚 Documentation
+## 📚 Documentation
 
 The repository also contains the academic documentation:
 ```text
