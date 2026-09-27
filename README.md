@@ -44,7 +44,7 @@ The conceptual structure of the university network is:
           Block        Block     Block   Block
 The complete topology is implemented in the Cisco Packet Tracer project.
 ```
-🔐 ## VPN Connectivity
+## VPN Connectivity
 
 The project includes a VPN connection to provide secure connectivity between the university network and external network resources.
 
@@ -88,18 +88,16 @@ University-Enterprise-Network-Topology-VPN-Simulation/
 ## ▶️ How to Run
 1. Install Cisco Packet Tracer
 
-Install Cisco Packet Tracer on your computer.
-
 2. Open the Project
 
 Open:
-
+```text
 University_Enterprise_Network_VPN.pkt
-
+```
 using Cisco Packet Tracer.
 
 3. Inspect the Topology
-
+```text
 Check the:
 
 Routers
@@ -108,11 +106,13 @@ End devices
 Network connections
 IP addressing
 VPN configuration
+```
 4. Open Router CLI
 
 Select a router → CLI and use Cisco IOS commands to inspect the configuration.
 
 💻 Useful Cisco IOS Commands
+```text
 Interface Status
 show ip interface brief
 Running Configuration
@@ -121,33 +121,11 @@ Routing Table
 show ip route
 Connectivity Test
 ping <destination-ip>
-
-Example:
-
-ping 192.168.2.1
-Trace Network Path
-traceroute <destination-ip>
-🧪 VPN Testing Procedure
-Check interface status:
-show ip interface brief
-Check routing:
-show ip route
-Test the VPN peer:
-ping <peer-ip>
-Generate traffic between the networks:
-ping <destination-ip>
-Check IKE/ISAKMP:
-show crypto isakmp sa
-Check IPsec:
-show crypto ipsec sa
-Check the crypto map:
-show crypto map
-Inspect the complete crypto configuration:
-show running-config | section crypto
-🔍 Troubleshooting
+```
+## 🔍 Troubleshooting
 
 If VPN connectivity is not working, verify:
-
+```text
 show ip interface brief
 show ip route
 show crypto isakmp sa
@@ -156,25 +134,25 @@ show crypto map
 show running-config | section crypto
 
 Also verify that the VPN peer is reachable and that the required interfaces are operational.
+```
+## 🎯 Project Objectives
+- Design a structured university enterprise network.
+- Connect multiple academic blocks through centralized campus infrastructure.
+- Provide network segmentation and organized connectivity.
+- Incorporate network security considerations.
+- Demonstrate VPN-based connectivity.
+- Simulate and verify the network using Cisco Packet Tracer.
 
-🎯 Project Objectives
-Design a structured university enterprise network.
-Connect multiple academic blocks through centralized campus infrastructure.
-Provide network segmentation and organized connectivity.
-Incorporate network security considerations.
-Demonstrate VPN-based connectivity.
-Simulate and verify the network using Cisco Packet Tracer.
-📚 Documentation
+##📚 Documentation
 
 The repository also contains the academic documentation:
-
+```text
 PES2UG23CS652_THANVI G ACHAR_J UNIVERSITY_BANANA PRBLM.docx
+```
 
-The Cisco Packet Tracer .pkt file contains the actual implemented topology and device configuration.
 
-
-👩‍💻 Author
-
+## 👩‍💻 Author
+```text
 Thanvi G Achar
 
 GitHub:
@@ -183,3 +161,4 @@ https://github.com/thanvigachar
 🔗 Repository
 
 https://github.com/thanvigachar/University-Enterprise-Network-Topology-VPN-Simulation
+```
