@@ -43,50 +43,49 @@ The conceptual structure of the university network is:
        Engineering  Mechanical Pharmacy Medical
           Block        Block     Block   Block
 The complete topology is implemented in the Cisco Packet Tracer project.
-
-🔐 VPN Connectivity
+```
+🔐 ## VPN Connectivity
 
 The project includes a VPN connection to provide secure connectivity between the university network and external network resources.
 
 The exact router interfaces, IP addresses, peer addresses, authentication parameters, ACLs, and cryptographic configuration should be inspected directly from the .pkt file.
 
-VPN Verification Commands
+## VPN Verification Commands
 
 If Cisco IOS IPsec VPN is configured:
-
+```text
 show crypto isakmp sa
 show crypto ipsec sa
 show crypto map
 show running-config | section crypto
-VPN Testing
+```
+## VPN Testing
 
 Generate traffic between the required networks:
-
+```text
 ping <destination-ip>
-
+```
 Then verify the VPN:
-
+```text
 show crypto isakmp sa
 show crypto ipsec sa
 
 Check the IPsec packet counters to confirm that VPN traffic is being processed.
-
-🛠️ Technologies & Tools
+```
+## 🛠️ Technologies & Tools
 Cisco Packet Tracer
 Cisco IOS
 Computer Networking
 VPN / IPsec
-Hierarchical Network Topology
+## Hierarchical Network Topology
 📂 Project Structure
 University-Enterprise-Network-Topology-VPN-Simulation/
 │
 ├── README.md
 ├── University_Enterprise_Network_VPN.pkt
 ├── Computer-Networks-Banana-Problem.docx
-│
-└── images/
-    └── network-topology.png
-▶️ How to Run
+
+## ▶️ How to Run
 1. Install Cisco Packet Tracer
 
 Install Cisco Packet Tracer on your computer.
@@ -169,19 +168,11 @@ Simulate and verify the network using Cisco Packet Tracer.
 
 The repository also contains the academic documentation:
 
-Computer-Networks-Banana-Problem.docx
+PES2UG23CS652_THANVI G ACHAR_J UNIVERSITY_BANANA PRBLM.docx
 
 The Cisco Packet Tracer .pkt file contains the actual implemented topology and device configuration.
 
-🎓 Academic Information
-Field	Details
-Name	Thanvi G Achar
-University	PES University
-Program	BTech
-Subject	Computer Networks
-Project	Banana Problem
-Section	J
-Date	19-02-2025
+
 👩‍💻 Author
 
 Thanvi G Achar
